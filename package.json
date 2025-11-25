@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts-node": "ts-node",
     "start" : "ts-node -- index.ts",
-    "calculatebmi" : "ts-node -- calculateBmi.ts"
+    "calculatebmi" : "ts-node -- calculateBmi.ts",
+    "calculateexercises" : "ts-node -- calculateExercises.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
