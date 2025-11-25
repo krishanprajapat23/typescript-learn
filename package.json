@@ -7,7 +7,9 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "start" : "ts-node -- index.ts",
+    "calculatebmi" : "ts-node -- calculateBmi.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
