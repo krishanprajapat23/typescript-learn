@@ -18,4 +18,13 @@ const calculator = (a: number, b: number, op: Operation): Result => {
     }
 }
 
-console.log(calculator(3, 4, "add"));
+
+try {
+    console.log(calculator(3, 4, "add"));    
+} catch (error: unknown) {
+    let errorMsg = "Something went wrong";
+    if(error instanceof Error) {
+        errorMsg += error.message;
+    } 
+    console.log(errorMsg);
+}
